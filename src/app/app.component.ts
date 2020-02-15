@@ -1,4 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
+import { HeaderComponent } from './pages/header/header.component';
+
+@NgModule({
+  declarations: [
+    HeaderComponent
+  ],
+})
 
 @Component({
   selector: 'app-root',
