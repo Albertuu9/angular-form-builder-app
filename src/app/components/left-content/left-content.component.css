@@ -1,0 +1,30 @@
+.main-wrapper{
+    background-color: #efefef;
+    height: calc(100vh - 100px);
+}
+
+.main-wrapper .container {
+    width: 90%;
+}
+
+.icons{
+    color: #999999;
+}
+
+.icons:hover{
+    color: #333333;
+}
+
+.main-container{
+    overflow-y: scroll;
+    height: 750px;
+}
+
+.field-container:hover{
+    background-color: #dfdfdf;
+}
+
+.addBtn{
+    color: white;
+    background-color: #428BCA;
+}

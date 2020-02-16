@@ -10,3 +10,16 @@
 .row {
   width: 100%;
 }
+
+.col-6 .options-menu{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-items{
+  font-weight: normal;
+}
+
+.menu-items:hover{
+  font-weight: bolder;
+}

@@ -1,5 +1,5 @@
 import { Component, NgModule } from '@angular/core';
-import { HeaderComponent } from './pages/header/header.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [

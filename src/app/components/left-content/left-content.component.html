@@ -1,0 +1,28 @@
+<div class="main-wrapper">
+  <div class="container pt-2">
+    <mat-list>
+      <span class="mat-subheader">Mis campos del formulario</span>
+      <div class="main-container">
+        <mat-list-item class="field-container" *ngFor="let field of fields">
+          <span mat-line class="font-weight-bold">Nombre del campo: {{field.name}}</span>
+          <span mat-line class="font-weight-lighter">Fecha de creación: {{field.creationDate}} </span>
+          <i class="material-icons-outlined icons pr-1 cpointer">
+            edit
+          </i>
+          <i class="material-icons-outlined icons cpointer">
+            delete
+          </i>
+          <mat-divider></mat-divider>
+        </mat-list-item>
+      </div>
+      <div class="mt-3 float-right">
+        <button mat-button class="addBtn">
+          <i class="material-icons-outlined pr-2">
+            add
+          </i>
+          <span>AÑADIR CAMPO</span>
+        </button>
+      </div>
+    </mat-list>
+  </div>
+</div>
